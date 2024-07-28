@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+	<meta name="description"
+		content="Hello im HrithikMJ, currently pursuing my B.Tech degree in Artificial Intelligence and Data Science!! ">
+	<meta name="keywords" content="HrithikMJ, github , hrithikmj">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- <link  href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link  href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"> -->
+	<link defer href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link href="{{ url_for('htdocs', path='/styles.css') }}" rel="stylesheet">
+	<link rel="icon" href="images/ico.png">
+	<title>Hrithik❤️</title>
+	<!-- <script src="particles.js-master/particles.js"> -->
+	</script>
+</head>
+		
+<body>
+
+
+
+	<div class="body">
+		
+	<div class="title">
+		<h1 id="heading">Hrithik MJ<br>here!!</h1>
+		<h2 id="para">Student ,<wbr> FOSS enthusiast ,<wbr> Open source dev </h2>
+	</div>
+
+	{% if request.scope["http_version"] == "3" %}
+	<p>
+		Congratulations, you loaded this page using HTTP/3!
+	</p>
+	{% endif %}
+	<div id="head-soc" class="content">
+		<ul>
+			<li id="git" onmouseover="res('GitHub')" onmouseout="out()"><a href=https://github.com/HrithikMJ
+					target="_blank" class="btn w">Github</a></li>
+			<li id="ins" onmouseover="res('Instagram')" onmouseout="out()"><a
+					href=https://www.instagram.com/4872697468696b/ target="_blank" class="btn a">Instagram</a></li>
+			<li id="mail" onmouseover="res('email')" onmouseout="out()"><a href=mailto:hrithikmj003@gmail.com
+					target="_blank" class="btn s">Email</a></li>
+			<!-- <li id="twit" onmouseover="res('Twitter')" onmouseout="out()"><a href=https://twitter.com/hrithikmj69
+					target="_blank" class="btn d">Twitter</a></li> -->
+		</ul>
+	</div>
+
+	<div id="particles-js" onContextMenu="return false;"></div>
+</div>
+
+	
+	<script src="/scripts/index.js"></script>
+
+
+</body>
+
+</html>
